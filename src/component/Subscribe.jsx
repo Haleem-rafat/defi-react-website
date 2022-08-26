@@ -3,7 +3,10 @@ import wallpaper from "../assets/subscribe.jpg";
 
 const Subscribe = () => {
   return (
-    <div className="w-full px-4 py-16  text-white  text-center flex flex-col justify-center items-center">
+    <div
+      id="Communtiy"
+      className="w-full px-4 py-16  text-white  text-center flex flex-col justify-center items-center"
+    >
       <img src={wallpaper} className="object-cover absolute z-[-1]   " />
 
       <div className="mb-">

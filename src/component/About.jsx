@@ -5,7 +5,10 @@ import AboutCard from "./AboutCard";
 
 const About = () => {
   return (
-    <div className="max-w-[1240] mx-auto px-4 py-16 bg-black text-white text-center">
+    <div
+      id="About"
+      className="max-w-[1240] mx-auto px-4 py-16 bg-black text-white text-center"
+    >
       <div>
         <h1 className="py-4">A Growing Protocol Ecosystems</h1>
         <p className="py-4 text-2xl">
